@@ -1,9 +1,10 @@
 import { View } from "./style";
 
-function Card({ children }){
+function Card({ children }, ...props){
+  
 
   return(
-    <View props={this.props}>
+    <View props={props}>
       {children}
     </View>
   )
